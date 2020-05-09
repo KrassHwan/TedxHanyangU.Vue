@@ -1,9 +1,12 @@
 <template>
     <div>
         <Header/>
-        <div class="oranizerback black"></div>
-        <img :src="logo">
-        <div>{{message}}</div>
+        <div class="oranizerback black">
+            <img :src="logo" class="img">
+            <div style="color:white;" class="img box">
+                <div>{{message}}</div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -30,12 +33,18 @@ export default {
 <style scoped>
 .oranizerback{
     height:400px; 
-    width:100vw; 
+    width:50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.black{
-    background-color: black;
+.img{
+    width: 200px;
+    height: 100px;;
 }
-.blue-1{
-    background-color: red;
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 </style>

@@ -8,5 +8,10 @@ export const menuList = [
         name: "About",
         route_name: "about",
         icon: "fas fa-home grey-color"
+    },
+    {
+        name: "Organizers",
+        route_name: "organizers",
+        icon: "fas fa-users grey-color"
     }
 ];
