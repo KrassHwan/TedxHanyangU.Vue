@@ -4,6 +4,7 @@ import Router from "vue-router";
 //  Intro View
 import Home from "@views/Home.vue";
 import About from "@views/About.vue";
+import Organizers from "@views/Organizers.vue";
 
 Vue.use(Router);
 
@@ -25,6 +26,11 @@ export default new Router({
       path: "/about",
       name: "about",
       component: About
+    },
+    {
+      path: "/organizers",
+      name: "organizers",
+      component: Organizers
     }
   ]
 });
