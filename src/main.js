@@ -13,6 +13,8 @@ import VueClipboard from "vue-clipboard2";
 
 // Global Setting
 import "@assets/common.css";
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
 import Header from "@components/common/Header.vue";
 
 // Event Bus
@@ -20,6 +22,7 @@ export const bus = new Vue();
 
 Vue.config.productionTip = false;
 Vue.component("Header", Header);
+Vue.use(VueAwesomeSwiper)
 Vue.use(VueClipboard);
 
 new Vue({

@@ -2,8 +2,9 @@
     <v-app-bar 
         flat
         :color="headcolor"
-        style="position: fixed; transition:all ease 1s 0s"
-    >   <v-layout row justify-space-between style="padding: 0px 20px; align-items: center;">
+        style="position: fixed; transition:all ease 1s 0s;z-index:2;"
+    >
+        <v-layout row justify-space-between style="padding: 0px 20px; align-items: center;">
             <div class="headerTitle" @click="goMain()">
                 <span class="red-text">TED</span>
                 <span class="red-text headerTitlex">x</span>
@@ -31,9 +32,9 @@
                     />
                 </div>
                 <v-btn
-                text
-                @click="SideBarOn()"
-                :color="btncolor"
+                    text
+                    @click="SideBarOn()"
+                    :color="btncolor"
                 >
                     <i class="fas fa-bars"></i>
                 </v-btn>
