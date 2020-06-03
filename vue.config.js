@@ -8,7 +8,7 @@ module.exports = {
         '@': path.join(__dirname, 'src/'),
         '@views': path.join(__dirname, 'src/views/'),
         '@components': path.join(__dirname, 'src/components/'),
-        '@assets':path.join(__dirname, 'src/assets/')
+        '@assets':path.join(__dirname, 'src/assets/'),
       }
     }
   },

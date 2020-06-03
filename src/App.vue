@@ -4,9 +4,11 @@
       <v-fade-transition mode="out-in">
         <router-view />
       </v-fade-transition>
-      <footer class="footer mt-10" style="text-align: center;">
-        &copy; TedxHanyangU, All Rights Reserved
-      </footer>
+      <v-layout>
+        <v-flex xs12 class="footer pt-10 pb-10">
+          &copy; TedxHanyangU, All Rights Reserved
+        </v-flex>
+      </v-layout>
     </v-content>
     <Sidebar />
   </v-app>
@@ -32,10 +34,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 .footer {
-  position: absolute;
-  bottom: -50px;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  color: grey;
+  background-color: black;
+  color: white;;
+  text-align: center;
 }
 </style>
