@@ -37,29 +37,7 @@
             </v-layout>
         </swiper-slide>
         <swiper-slide >
-            <v-layout xs12 row justify-center align-center class="secondSlide slide">
-                <v-flex column class="tedx">
-                    <v-flex row justify-start>
-                        <div class="firstWord">T</div>
-                        <div class="leastWord">echnology</div>
-                    </v-flex>
-                    <v-flex row justify-start>
-                        <div class="firstWord">E</div>
-                        <div class="leastWord">ntertainment</div>
-                    </v-flex>
-                    <v-flex row justify-start>
-                        <div class="firstWord">D</div>
-                        <div class="leastWord">esign</div>
-                    </v-flex>
-                    <v-flex row justify-start>
-                        <div class="firstWord">X</div>
-                        <div class="leastWord"></div>
-                    </v-flex>
-                </v-flex>
-            </v-layout>
-        </swiper-slide>
-        <swiper-slide >
-            About
+            Talk
         </swiper-slide>
         <swiper-slide >
             Contact
