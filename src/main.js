@@ -11,12 +11,13 @@ import "@mdi/font/css/materialdesignicons.css";
 // Copy
 import VueClipboard from "vue-clipboard2";
 
-// swiper
+// Third Party
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+import VuePlayerPlugin from 'vue-youtube-iframe-api'
+import VueTyperPlugin from 'vue-typer'
 
 // Global Setting
 import Header from "@components/common/Header.vue";
-import VueTyperPlugin from 'vue-typer'
 
 
 // import style
@@ -32,6 +33,8 @@ Vue.component("Header", Header);
 Vue.use(VueClipboard);
 Vue.use(VueAwesomeSwiper)
 Vue.use(VueTyperPlugin)
+Vue.use(VuePlayerPlugin)
+
 
 new Vue({
   router,

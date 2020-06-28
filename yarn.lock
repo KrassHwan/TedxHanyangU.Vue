@@ -8179,6 +8179,11 @@ vue-typer@^1.2.0:
   dependencies:
     lodash.split "^4.4.2"
 
+vue-youtube-iframe-api@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vue-youtube-iframe-api/-/vue-youtube-iframe-api-0.1.2.tgz#b0a983702ebf5ef73e9f9d86c734940080ea7877"
+  integrity sha512-65DC5CHKawXZRxn5k/Rs/aA9f1ZmXgOAB0Csfxu3CjT0ybvF5mRPADJSDRADD6E735FBJee2scp3VbKeI86OmA==
+
 vue@^2.6.10:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
